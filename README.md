@@ -5,4 +5,3 @@
 > cd vtop3task
 > npm i
 > gulp dev
-____
