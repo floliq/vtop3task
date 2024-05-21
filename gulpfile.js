@@ -139,7 +139,7 @@ exports.styles = styles;
 exports.scripts = scripts;
 exports.htmlMinify = htmlMinify;
 exports.clean = clean;
-exports.dev = series(
+exports.build = series(
   clean,
   pugToHTML,
   favicon,
@@ -151,16 +151,5 @@ exports.dev = series(
   SASSToCSS,
   styles,
   images,
-  watchFiles
-);
-exports.default = series(
-  clean,
-  fonts,
-  resourses,
-  htmlMinify,
-  scripts,
-  styles,
-  images,
-  svgSprites,
   watchFiles
 );

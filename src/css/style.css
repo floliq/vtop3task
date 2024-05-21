@@ -250,11 +250,10 @@ button {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   padding: 0 30px;
-  height: 1030px;
 }
 .gambling__col {
   max-width: 100px;
-  height: 1100px;
+  height: 1026px;
   overflow: hidden;
 }
 .gambling__pictures {
