@@ -150,6 +150,5 @@ exports.build = series(
   scripts,
   SASSToCSS,
   styles,
-  images,
-  watchFiles
+  images
 );
