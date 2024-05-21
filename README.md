@@ -18,4 +18,4 @@
 
 4. Запустите сборку
   ```terminal
-     npm i
+     gulp build
