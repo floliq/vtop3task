@@ -889,6 +889,11 @@ button {
       bottom: -369px;
     }
 
+
+    &__content{
+      margin: 0;
+    }
+
     &__headline {
       padding: 0 10px;
       margin-bottom: 32px;
@@ -1024,5 +1029,16 @@ button {
   .simplebar-vertical{
     right: 7px;
 
+  }
+}
+
+@media (max-width:320px) {
+  .gambling {
+    &__carousel{
+      right: 10px;
+    }
+    &__col{
+      width: 320px;
+    }
   }
 }
