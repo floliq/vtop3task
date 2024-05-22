@@ -732,6 +732,9 @@ button {
     padding-bottom: 0;
     margin-bottom: 108px;
   }
+  .gambling__container {
+    padding: 0;
+  }
   .gambling__mask {
     display: none;
   }
@@ -857,13 +860,5 @@ button {
   }
   .simplebar-vertical {
     right: 7px;
-  }
-}
-@media (max-width: 320px) {
-  .gambling__carousel {
-    right: 10px;
-  }
-  .gambling__col {
-    width: 320px;
   }
 }

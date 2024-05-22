@@ -867,12 +867,17 @@ button {
   .container {
     padding: 0 10px;
   }
+
   .menu {
     margin-bottom: 70px;
   }
   .gambling {
     padding-bottom: 0;
     margin-bottom: 108px;
+
+    &__container{
+      padding: 0;
+    }
 
     &__mask{
       display: none;
@@ -1029,16 +1034,5 @@ button {
   .simplebar-vertical{
     right: 7px;
 
-  }
-}
-
-@media (max-width:320px) {
-  .gambling {
-    &__carousel{
-      right: 10px;
-    }
-    &__col{
-      width: 320px;
-    }
   }
 }
