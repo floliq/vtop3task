@@ -470,7 +470,7 @@ button {
   background-color: transparent;
   transition: 0.5s;
   background-image: url("../img/union.svg");
-  background-size: no-repeat;
+  background-size: auto;
   background-position: 14px center;
   background-repeat: no-repeat;
 }
